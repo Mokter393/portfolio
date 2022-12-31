@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar {
+    background-color: #121229;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navLogo {
+    color: #F9F9FA;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.navMenu ul li{
+    list-style: none;
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+.navMenu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+.navMenu ul li a:hover {
+    border-bottom: 3px solid #E36157;
+    padding: 0px 0px 8px 0px;
+}
+
+.navBtn button {
+    padding: 10px 25px;
+    background-color: #E36157;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
